@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration status="WARN" name="MyApp" packages="">
+    <Appenders>
+        <File name="FileInputHistory" fileName="logs/inputHistory.log">
+            <PatternLayout pattern="%d %p %c{1.} [%t] %m%n"/>
+            <Filters>
+                <MarkerFilter marker="INPUT_HISTORY" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </File>
+
+        <File name="FileInvalidStations" fileName="logs/invalidStations.log">
+            <PatternLayout pattern="%d %p %c{1.} [%t] %m%n"/>
+            <Filters>
+                <MarkerFilter marker="INVALID_STATIONS" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </File>
+
+        <File name="FileExceptions" fileName="logs/exceptions.log">
+            <PatternLayout pattern="%d %p %c{1.} [%t] %m%n"/>
+            <Filters>
+                <MarkerFilter marker="EXCEPTION" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </File>
+    </Appenders>
+
+    <loggers>
+        <root level ="info">
+            <appender-ref ref="FileInputHistory" level="info"/>
+            <appender-ref ref="FileInvalidStations" level="info"/>
+            <appender-ref ref="FileExceptions" level="info"/>
+        </root>
+    </loggers>
+</Configuration>

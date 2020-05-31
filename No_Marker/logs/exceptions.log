@@ -1,0 +1,14 @@
+2020-04-09 21:46:41,546 ERROR Main [main] java.nio.file.NoSuchFileException: sr\main\resources\map.json
+2020-04-09 21:46:41,549 ERROR Main [main] Unexpected token END OF FILE at position 0.
+2020-04-09 22:13:00,655 ERROR Main [main] java.nio.file.NoSuchFileException: sr\main\resources\map.json
+2020-04-09 22:13:00,657 ERROR Main [main] Unexpected token END OF FILE at position 0.
+2020-04-12 03:10:01,868 ERROR Main [main] java.nio.file.NoSuchFileException: sr\main\resources\map.json
+2020-04-12 03:10:01,872 ERROR Main [main] Unexpected token END OF FILE at position 0.
+2020-04-12 03:11:23,100 ERROR Main [main] java.nio.file.NoSuchFileException: sr\main\resources\map.json
+2020-04-12 03:11:23,103 ERROR Main [main] Unexpected token END OF FILE at position 0.
+2020-04-13 09:02:30.588 [main] FATAL Main - java.nio.file.NoSuchFileException: sr\main\resources\map.json
+2020-04-13 09:02:30.591 [main] FATAL Main - Unexpected token END OF FILE at position 0.
+2020-04-13 09:03:39.371 [main] FATAL Main - java.nio.file.NoSuchFileException: sr\main\resources\map.json
+2020-04-13 09:03:39.373 [main] FATAL Main - Unexpected token END OF FILE at position 0.
+2020-04-13 09:05:43.499 [main] FATAL Main - java.nio.file.NoSuchFileException: sr\main\resources\map.json
+2020-04-13 09:05:43.501 [main] FATAL Main - Unexpected token END OF FILE at position 0.

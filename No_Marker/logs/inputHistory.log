@@ -1,0 +1,15 @@
+2020-04-09 21:46:41,546 ERROR Main [main] java.nio.file.NoSuchFileException: sr\main\resources\map.json
+2020-04-09 21:46:41,549 ERROR Main [main] Unexpected token END OF FILE at position 0.
+2020-04-09 22:06:33,817 WARN Main [main] Станция не найдена: 24324234
+2020-04-09 22:13:00,655 ERROR Main [main] java.nio.file.NoSuchFileException: sr\main\resources\map.json
+2020-04-09 22:13:00,657 ERROR Main [main] Unexpected token END OF FILE at position 0.
+2020-04-09 22:13:53,267 INFO Main [main] Ищут станции: Елизаровская
+2020-04-12 03:09:12,926 WARN Main [main] Станция не найдена: автвооаво
+2020-04-12 03:09:16,564 INFO Main [main] Ищут станции: Автово
+2020-04-12 03:10:01,868 ERROR Main [main] java.nio.file.NoSuchFileException: sr\main\resources\map.json
+2020-04-12 03:10:01,872 ERROR Main [main] Unexpected token END OF FILE at position 0.
+2020-04-12 03:10:04,799 WARN Main [main] Станция не найдена: 749579473
+2020-04-12 03:11:23,100 ERROR Main [main] java.nio.file.NoSuchFileException: sr\main\resources\map.json
+2020-04-12 03:11:23,103 ERROR Main [main] Unexpected token END OF FILE at position 0.
+2020-04-12 03:12:17,288 INFO Main [main] Ищут станции: Московская
+2020-04-13 09:02:01.316 [main] INFO  Main - Ищут станции: Московская
